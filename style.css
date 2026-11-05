@@ -1,0 +1,90 @@
+html {
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fffce8;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  padding: 2rem 1rem;
+}
+
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 500px;
+  width: 100%;
+  margin: 0 auto 2rem auto;
+  color: white;
+  background-attachment: fixed;
+  background-image:
+    linear-gradient(rgba(55, 191, 255, 0.5), rgba(181, 31, 53, 0.5)),
+    url("https://i.pinimg.com/736x/78/42/f1/7842f17736db44d21d28b7b63f7e199e.jpg");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-content {
+  padding: 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+.box {
+  background-color: #191e24;
+  color: #e6f2ea;
+  width: 100%;
+  max-width: 1000px;
+  margin: 1rem auto;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+.container {
+  background-color: #e8e8e8;
+  color: #191e24;
+  width: 100%;
+  max-width: 1000px;
+  margin: 1rem auto;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.title {
+  margin-bottom: 1rem;
+}
+
+.desc {
+  margin-bottom: 1rem;
+}
+
+.facts {
+  list-style-position: inside;
+  line-height: 1.8;
+}
+
+
+.Food {
+  background-color: #191e24;
+  color: #e6f2ea;
+  width: 100%;
+  max-width: 400px;
+  margin: 2rem auto 0 auto;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
